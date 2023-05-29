@@ -19,7 +19,7 @@ class HomeController extends BaseController
 
     /**
      * 商品服务层.
-     * @var \App\Service\PayService
+     * @var \App\Service\GoodsService
      */
     private $goodsService;
 

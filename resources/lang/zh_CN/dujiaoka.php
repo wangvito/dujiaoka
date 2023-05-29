@@ -136,8 +136,7 @@ return [
         'android_device' => '安卓设备',
         'click_on_the_upper_right_corner' => '点击右上角',
         'open_the_browser' => '在 浏览器 打开',
-        'what_do_you_need_today' => '今天需要一点什么？',
-        'self_promotion' => '优质的商品和卓越的客户服务代表完美的交易流程体现。',
+
     ],
 
     'page-title' => [

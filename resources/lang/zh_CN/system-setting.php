@@ -42,6 +42,8 @@ return [
 		'bark_token' => 'Bark通讯Token',
 		'is_open_qywxbot_push' => '是否开启企业微信Bot推送',
 		'qywxbot_key' => '企业微信Bot通讯Key',
+        'is_open_feishubot_push'=>'是否开启飞书bot推送',
+        'feishubot_key'=>'飞书botwebhook地址',
 
         'template' => '站点模板',
         'language' => '站点语言',

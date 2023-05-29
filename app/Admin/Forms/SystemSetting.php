@@ -72,6 +72,9 @@ class SystemSetting extends Form
             $this->switch('is_open_qywxbot_push', admin_trans('system-setting.fields.is_open_qywxbot_push'))
                 ->default(BaseModel::STATUS_CLOSE);
             $this->text('qywxbot_key', admin_trans('system-setting.fields.qywxbot_key'));
+            $this->switch('is_open_feishubot_push', admin_trans('system-setting.fields.is_open_feishubot_push'))
+                ->default(BaseModel::STATUS_CLOSE);
+            $this->text('feishubot_key', admin_trans('system-setting.fields.feishubot_key'));
         });
         $this->tab(admin_trans('system-setting.labels.mail_setting'), function () {
             $this->text('driver', admin_trans('system-setting.fields.driver'))->default('smtp')->required();

@@ -428,6 +428,14 @@ class OrderProcessService
             if (dujiaoka_config_get('is_open_qywxbot_push', 0) == BaseModel::STATUS_OPEN) {
                 WorkWeiXinPush::dispatch($order);
             }
+            //开启飞书推送
+            if (dujiaoka_config_get('is_open_feishubot_push', 0) == BaseModel::STATUS_OPEN) {
+                WorkWeiXinPush::dispatch($order);
+            }
+            //开启alst账号推送
+
+            //推送维格表数据
+
             // 回调事件
             ApiHook::dispatch($order);
             return $completedOrder;
